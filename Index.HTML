@@ -64,7 +64,6 @@ formElement.onsubmit = function submitAnswers() {
 			return false;
 		}
 	}
-
 	var answers = ["a","b","c","d"];
 
 	for (i = 1; i <= total;i++) {
@@ -72,10 +71,8 @@ formElement.onsubmit = function submitAnswers() {
 			score++;
 		}
 	}
-
 	var results = document.getElementById('results');
 	results.innerHTML ='<h3>Your score is <span>'+score+'</span> out of <span>'+total+'</span></h3>';
-
 	return false;
 }
 
