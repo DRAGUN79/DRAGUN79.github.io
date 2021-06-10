@@ -1,0 +1,41 @@
+body {
+  color: royalblue;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+}
+
+[id=wrapper] {
+  width: 50vw;
+  background: darkblue;
+  color: #000;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 2.6rem;
+  border: 2px solid #E8A2A0;
+}
+
+header {
+  text-align: center;
+  border-bottom: #E7D8C9 dashed 1px;
+}
+
+header h1 {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  padding: 0;
+  margin-top: 5px;
+  color: #000;
+}
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+}
+[id=demo] {
+  font-size: 18px;
+}
+button {
+  font-size: 16px;
