@@ -1,12 +1,12 @@
 body {
-  color: royalblue;
+  color: Royalblue;
   font-family: 'Didact Gothic', sans-serif;
   font-size: 14px;
 }
 
 [id=wrapper] {
   width: 50vw;
-  background: darkblue;
+  background: skyblue;
   color: #000;
   margin: 20px auto;
   overflow: auto;
