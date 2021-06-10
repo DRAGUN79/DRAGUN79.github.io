@@ -15,7 +15,7 @@
     <p>Dynamic Web Design Final Project using JavaScript</p>
   </header>
   <section>
-    <p id="demo">
+	  <p id="demo"></p>
 
     <form name="quizForm" >
       <h3>1. Is this the last day of this class?</h3>
@@ -39,7 +39,7 @@
       <input type="radio" name="q4" value="b" id="q4b">b. Cold<br>
       <input type="radio" name="q4" value="c" id="q4c">c. Snowy<br>
       <input type="radio" name="q4" value="d" id="q4d">d. Cloudy<br>
-	</p>
+
       <input type="submit" value="Submit Answers"><button onclick="restart()" class="restart">Start Over</button>
     </form>
     <div id="results"></div>
@@ -47,7 +47,6 @@
 </div>
 
 <script>
-
 var formElement = document.forms['quizForm'];
 
 formElement.onsubmit = function submitAnswers() {
@@ -75,11 +74,9 @@ formElement.onsubmit = function submitAnswers() {
 	results.innerHTML ='<h3>Your score is <span>'+score+'</span> out of <span>'+total+'</span></h3>';
 	return false;
 }
-
-  function restart() {
+  function restart(false) {
     location.reload(true);
   }
-
 </script>
 </body>
 </html>
